@@ -32,10 +32,33 @@ btn1.addEventListener("click", function () {
     const inputTexts = inputText.value;
     if (inputTexts) {
         const textLength = inputTexts.length;
-        output.innerHTML += textLength;
+        output.innerHTML = textLength;
         console.log(textLength)
     }
 })
+
+// ==========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
